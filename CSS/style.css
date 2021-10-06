@@ -1,0 +1,41 @@
+body {
+  font-family: cursive;
+  background-color: aliceblue;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #66BFBF;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  border-color: grey;
+  width: 35%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  border-bottom: 1.5px solid;
+  background: lightblue;
+}
+
+a:active {
+  color: red;
+}
+
+a[type=Image] {
+  text-decoration: none;
+  border-bottom: 0 none;
+  background: none;
+  border: none;
+}
+
+.Text, .SubmitText {
+  font-family: cursive;
+}
